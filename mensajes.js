@@ -1,0 +1,15 @@
+const mensajes = [
+    {"comment": "Afghanistan"}, 
+    {"comment": "land Islands"}, 
+    {"comment": "Albania"}, 
+    {"comment": "Algeria"}, 
+    {"comment": "American Samoa"}, 
+    {"comment": "AndorrA"}, 
+    {"comment": "Angola"}, 
+    {"comment": "Anguilla"}, 
+    {"comment": "Antarctica"}, 
+    {"comment": "Antigua and Barbuda"}, 
+    {"comment": "Argentina"}, 
+    {"comment": "Armenia"}, 
+    {"comment": "Aruba"}, 
+]

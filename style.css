@@ -1,0 +1,82 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  background: rgb(41, 0, 0);
+  background: linear-gradient(
+    360deg,
+    rgba(41, 0, 0, 1) 17%,
+    rgba(122, 0, 0, 1) 100%
+  );
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 3px solid rgb(4, 0, 56);
+  background-color: rgba(255, 255, 255, 0.733);
+  border-radius: 5px;
+  gap: 6px;
+}
+
+#presentation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+  gap: 10px;
+}
+
+#mensaje {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  flex-wrap: wrap;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#image{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#image img{
+  border: 2px solid black;
+  border-radius: 3px;
+  display: flex;
+}
+
+#boton{
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#boton button{
+  padding: 10px 30px;
+  font-weight: 600;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 160px){
+  #image img {
+    width: 90%;
+  }
+}
